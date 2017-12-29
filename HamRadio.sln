@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27130.2010
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "callook.info", "HamRadio\callook.info.csproj", "{9B0FDC15-1A6E-4A24-806E-D03A6FA2D26A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.CallookInfo", "HR.CallookInfo\HR.CallookInfo.csproj", "{AF4953F9-0D04-45FD-A5CC-13C2F3429D37}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.Entities", "HR.Entities\HR.Entities.csproj", "{9C5DD285-4B73-46CB-986E-94A32C0C499D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.Service", "HR.Service\HR.Service.csproj", "{D79CFAE9-8AB0-4ACF-829C-DD7B53CCDF06}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,10 +15,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9B0FDC15-1A6E-4A24-806E-D03A6FA2D26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B0FDC15-1A6E-4A24-806E-D03A6FA2D26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B0FDC15-1A6E-4A24-806E-D03A6FA2D26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B0FDC15-1A6E-4A24-806E-D03A6FA2D26A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{AF4953F9-0D04-45FD-A5CC-13C2F3429D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{AF4953F9-0D04-45FD-A5CC-13C2F3429D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF4953F9-0D04-45FD-A5CC-13C2F3429D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -27,6 +23,10 @@ Global
 		{9C5DD285-4B73-46CB-986E-94A32C0C499D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9C5DD285-4B73-46CB-986E-94A32C0C499D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9C5DD285-4B73-46CB-986E-94A32C0C499D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D79CFAE9-8AB0-4ACF-829C-DD7B53CCDF06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D79CFAE9-8AB0-4ACF-829C-DD7B53CCDF06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D79CFAE9-8AB0-4ACF-829C-DD7B53CCDF06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D79CFAE9-8AB0-4ACF-829C-DD7B53CCDF06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
