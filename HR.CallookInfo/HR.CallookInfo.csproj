@@ -7,7 +7,7 @@
     <ProjectGuid>{AF4953F9-0D04-45FD-A5CC-13C2F3429D37}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CallookInfo</RootNamespace>
+    <RootNamespace>HR.CallookInfo</RootNamespace>
     <AssemblyName>CallookInfo</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>

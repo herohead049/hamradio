@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Gremlin.CallSignResponse
+namespace HR.CallookInfo.CallSignResponse
 {
     public class CallSignOtherInfo
     {

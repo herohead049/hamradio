@@ -115,20 +115,22 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CallSignResponse\CallSign.cs" />
-    <Compile Include="CallSignResponse\CallSignAddress.cs" />
-    <Compile Include="CallSignResponse\CallSignCurrent.cs" />
-    <Compile Include="CallSignResponse\CallSignLocation.cs" />
-    <Compile Include="CallSignResponse\CallSignOtherInfo.cs" />
-    <Compile Include="CallSignResponse\CallSignPrevious.cs" />
-    <Compile Include="CallSignResponse\CallsignResponse.cs" />
-    <Compile Include="CallSignResponse\CallSignTrustee.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HR.CallookInfo\HR.CallookInfo.csproj">
+      <Project>{af4953f9-0d04-45fd-a5cc-13c2f3429d37}</Project>
+      <Name>HR.CallookInfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HR.Entities\HR.Entities.csproj">
+      <Project>{9c5dd285-4b73-46cb-986e-94a32c0c499d}</Project>
+      <Name>HR.Entities</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

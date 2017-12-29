@@ -1,6 +1,7 @@
 ﻿
 
-using Gremlin.CallSignResponse;
+using HR.CallookInfo.CallSignResponse;
+using HR.Entities;
 using Neo4jClient;
 using System;
 using System.Net;

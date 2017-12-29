@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gremlin.CallSignResponse
+namespace HR.CallookInfo.CallSignResponse
 {
     public class CallSignAddress
     {
